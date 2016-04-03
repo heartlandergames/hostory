@@ -241,6 +241,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1516913806}
   - 114: {fileID: 1516913805}
+  - 114: {fileID: 1516913807}
   m_Layer: 0
   m_Name: Test
   m_TagString: Untagged
@@ -261,6 +262,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemsList: []
   numberToGenerate: 500
+  done: 0
 --- !u!4 &1516913806
 Transform:
   m_ObjectHideFlags: 0
@@ -273,3 +275,16 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!114 &1516913807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1516913804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dbb4d6e3c2e0c74690e6e18849a280c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  graph: {fileID: 190852, guid: 2669dc7b3151ecf45b2b957746447a47, type: 2}
+  graphedList: []
